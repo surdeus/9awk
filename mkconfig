@@ -1,0 +1,13 @@
+<$HOME/app/mk/inc/config
+PROGNAME = 9awk
+INCS =  $DOTINC $INC9
+LIBS = $MLIB
+DEFS = -D_DEFAULT_SOURCE
+LDFLAGS = $LD_STATIC_FLAG $LIBS
+CFILES = lex.c lib.c main.c parse.c proctab.c re.c run.c tran.c
+YFILES = awkgram.y
+HFILES = awk.h proto.h
+YHFILES = y.tab.h
+YCFILES = y.tab.c
+AFILES = $OBJ9
+
