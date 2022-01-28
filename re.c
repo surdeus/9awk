@@ -25,11 +25,11 @@ THIS SOFTWARE.
 
 #define DEBUG
 #include <stdio.h>
-#include <u.h>
-#include <libc.h>
+#include <9/u.h>
+#include <9/c.h>
 #include <ctype.h>
-#include <bio.h>
-#include <regexp.h>
+#include <9/bio.h>
+#include <9/regexp9.h>
 #include "awk.h"
 #include "y.tab.h"
 
